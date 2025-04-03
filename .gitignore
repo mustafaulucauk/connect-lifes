@@ -144,3 +144,15 @@ dist
 # IDE/Editor
 .vscode/
 .idea/
+
+# macOS sistem dosyaları (eklemek isterseniz)
+.DS_Store
+
+# Test araçları (Jest, Cypress)
+**/__snapshots__/
+cypress/screenshots/
+cypress/videos/
+
+# Android/iOS build (React Native için)
+android/app/build/
+ios/build/
